@@ -42,9 +42,18 @@ mode_value=calculate_mode(data)
 varience_value=calculate_varience(data)
 standard_deviation_value=calculate_standard_deviation(data)
 #printing results
-print("data=",data)
+print("Data=",data)
 print("Mean=",mean_value)
 print("Median=",median_value)
 print("Mode=",mode_value)
 print("Varience=",varience_value)
 print("Standard deviation=",standard_deviation_value)
+"""
+output:
+Data= [4, 12, 24, 25]
+Mean= 16.25
+Median= 18.0
+Mode= 4
+Varience= 76.1875
+Standard deviation= 8.728545125048045
+"""
