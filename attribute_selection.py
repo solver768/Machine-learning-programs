@@ -1,7 +1,8 @@
 """
-programmer:Ponduri Venkata Sai Lakshmi Deepthi
-subject:machine learning
-content : attribute selection from the data of loas_iris by importing from scikit-learn/datasets
+Date:1st January 2025
+Programmer:Ponduri Venkata Sai Lakshmi Deepthi
+Subject:machine learning
+Content : attribute selection from the data of loas_iris by importing from scikit-learn/datasets
 """
 #attribute selection
 import pandas as pd
