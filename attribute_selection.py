@@ -15,3 +15,8 @@ Y=pd.Series(d.target)
 selector=SelectKBest(score_func=f_classif,k=2)
 X_selected=selector.fit_transform(X,Y)
 print("Selected feature from diabetes dataset:\n",X.columns[selector.get_support()])
+"""
+output:
+Selected feature from diabetes dataset:
+ Index(['bmi', 's5'], dtype='object')
+"""
