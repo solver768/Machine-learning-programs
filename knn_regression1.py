@@ -18,4 +18,4 @@ knn_r=KNeighborsRegressor(n_neighbors=5)
 knn_r.fit(x.values,y.values)
 #prediction based on knn regression
 y_p_r=knn_r.predict([[0.3,0.4]])
-print("Predicted value based on l=knn regression:",y_p_r)
+print("Predicted value based on knn regression:",y_p_r)
